@@ -41,7 +41,10 @@ while(True):
         #The mail addresses and password
         sender_address = 'dftm@wharton.upenn.edu'
         sender_pass = 'gijvgsckkxzoekhr'
-        receiver_address = 'dftm@wharton.upenn.edu'
+        receiver_address = 'dftm@wharton.upenn.edu; niacrob@wharton.upenn.edu;' + \
+                            'asharpe@wharton.upenn.edu; bsarti@wharton.upenn.edu' + \
+                            'econniff@wharton.upenn.edu; jo.vallurupalli@gmail.com' + \
+                            'jbhash65@gmail.com; dzm@wharton.upenn.edu'
         
         #Setup the MIME
         message = MIMEMultipart()
