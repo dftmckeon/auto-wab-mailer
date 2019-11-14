@@ -8,5 +8,6 @@ setup(name='Auto-WAB-Mailer',
       author='Daniel McKeon',
       author_email='dftm@wharton.upenn.edu',
       url='https://www.dftmckeon.com/',
-      packages=['praw', 'pyowm', 'smtplib', 'email.mime.multipart', 'email.mime.text', 'time', 'random'],
+      packages=['Auto-WAB-Mailer'],
+      install_requires=['praw', 'pyowm', 'smtplib', 'email.mime.multipart', 'email.mime.text', 'time', 'random']
      )
